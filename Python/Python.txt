@@ -1,0 +1,39 @@
+.capatalize() = deixa a palavra com  primeira letra maiuscula. 
+.endswith("") = se tiver a as letras que foi colocado dentro das " ", ele vai dar true, se não estiver, vai dar false. 
+.lower() = deixa todas as letras minusculas.
+.upper() = deixa todas as letras maiuscula.
+.strip() = devolve a string sem os espaços exagerados. 
+
+Arrays em Python{ 
+
+    valores = []
+    [coloca os valores da Lista]
+    valores[0,1,2,3,4,5]
+
+    a função min() retorna o menor itém da lista. 
+    A função len() retorna a quantidade de itens das listas. 
+    .append("") serve para adicionar um itém na lista.
+    .pop() retira o último itém da lista. 
+
+}
+
+crie um novo arquivo dentro da pasta .txt
+
+Para abrir um arquivo, faça da seguinte maneira{
+
+    arquivo = open('palavras.txt' , 'r') // aqui você abre o arquivo
+
+    arquivo.close() //aqui você fecha o arquivo
+
+}
+
+A função readlin lê apenas uma linha do arquivo.
+
+funções começa com def nome da função(): 
+
+    e para chamar, você coloca o nome da função, mais ();
+    exemplo: 
+
+    def jogar(): 
+
+    jogar()
